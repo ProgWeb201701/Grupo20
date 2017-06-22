@@ -47,7 +47,7 @@ class Areainteresse extends CI_Controller {
         if (isset($data['areainteresse']['codInteresse'])) {
             if (isset($_POST) && count($_POST) > 0) {
                 $params = array(
-                Ïdescricao' => $this->input->post('descricao'),
+                //descricao' => $this->input->post('descricao'),
                 );
 
                 $this->Areainteresse_model->update_areainteresse($codInteresse,$params);            
